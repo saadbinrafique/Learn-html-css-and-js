@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations</title>
+    <style>
+        .container{
+            background-color: chartreuse;
+
+        }
+        .box{
+            background-color: green;
+            width: 250px;
+            height: 250px;
+            font-size: 23px;
+            position: relative;
+            animation-name: saad1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            /* animation-fill-mode: forwards; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-delay: 2s; */
+            /* animation-direction: reverse; */
+
+        /* }
+        /* @keyframes saad { */
+          /* from  {width:200px;
+
+            }
+            to {width: 800px;
+
+            } */
+            
+        } 
+
+    @keyframes saad1 {
+        
+    
+        0%{
+            top:0px;
+            left:0px;
+        }
+        25%{
+            top: 250px;
+            left: 0px;
+        }
+        75%{
+            top: 250px;
+            left: 250px;
+        }
+        100%{
+            top: 0px;
+            left: 250px;
+        }
+        
+    }
+
+            
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is the Box
+        </div>
+
+    </div>
+</body>
+</html>

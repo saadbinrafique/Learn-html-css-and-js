@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>longest word</title>
+</head>
+<h1>
+    find longest word
+</h1>
+<body>
+    <script>
+        function findLongestWordLength(str) {
+  let strsplit = str.split(' ')
+  
+  let longestword= 0;
+  for (let i = 0; i < strsplit.length; i++) {
+      if (strsplit[i].length > longestword) {
+          longestword= strsplit[i].length
+      };
+      
+  }
+  
+  return longestword;
+}
+
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
+
+    </script>
+</body>
+</html>

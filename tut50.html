@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string Functions in J.S</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        var str = "Saad";
+        console.log(str);
+
+        // // First occurence of a substring
+        // var position = str.indexOf('is');
+        // console.log(position);
+
+        // // Last occurence of a substring
+        // var position = str.lastIndexOf('is');
+        // console.log(position);
+
+        // Substring from a string
+
+        var substr = str.slice(1, 5);
+        // console.log(substr);
+
+        var substr = str.substring(1, 5);
+        // console.log(substr)
+
+        var substr = str.substr(1, 5);
+        // console.log(substr)
+
+        // var replaced = str.replace('saad', 'moon');
+        // console.log(str);
+        // console.log(replaced);
+
+        console.log(str.toUpperCase())
+        console.log(str.toLowerCase())
+
+        var newm = str.concat('New String')
+        console.log(newm);
+
+        var spaces = "     what a          catch      "
+        console.log(spaces)
+        console.log(spaces.trim())
+
+
+        var char2 = str.charAt(2)
+        console.log(char2);
+        // console.log(str[4])
+        
+        // for (var i = 0; i <= array.length; i++) {
+            //     console.log("index " + concatval(i) + concatval(" value ").concat(array[i]));
+            //     //array.push("new");
+            
+            
+            //     // str.replace('bhai')
+            
+            // }
+            // function concatval(val) {
+                
+                //     return val;
+                // }
+                //         index 0 value ahmad
+                // tut50.html:58 index 1 value tahir
+                // tut50.html:58 index 2 value saad
+                // tut50.html:58 index 3 value dsfsdf
+                // tut50.html:58 index 4 value undefined
+                var array1 = ["ahmad", "tahir", "saad", "dsfsdf"];
+
+                array1.forEach( (names)=> {
+                    console.log(names);
+                });
+                // for (elements  of array1) {
+                //     console.log(elements);
+                // }
+
+                
+                </script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<!-- Notes
+    form action : jagha btani jahan logo ka form jama hoga jesy backend.php
+    div: se division hoga new line pr jaey ga
+    input:text  aagy jo text lagana./name:jis name se backend me submit hoga jesay myname
+    input:number
+    input:date
+    input:checkbox , is me "checked" daldo to permenant check rahy ga jub tk click nai krty.
+    input:radio ,jesay gender pr click krna ho or name= pr 1 hi name aeyga take sirf 1 per click ho.
+    input:submit
+    input:reset
+    texteria: isme tfseel se apnay barey me likh skty.ya pragraph.
+    label: "for"= jo for me aega woi "id=" me aega.or label= me jo likhy ga to uspr mouse click kraingy to form k ander click hojaeyga.
+    select: isme name: or id: deni/phr isky ander hi "option" hogi jis me value= btani mtlb koi bhi name likhday ya short words or ">" ky bad name likhna jo list khulnay pr aaey.or value likhnay k bad selected likha to wo word select hojaeyga jo website khulnay pr aey.
+
+
+
+
+ -->
+<body>
+    <h2>This is HTML Forms Practise</h2>
+
+    <form action="backend.php"></form>
+
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" name="myname" id="name">
+    </div>
+    <br>
+    <div>
+        <label for="q">Class:</label>
+        <input type="text" name="myClass" id="q">
+    </div><br>
+    <div>
+<label for="la"></label>
+         <input type="email" name="my Email" id="la">
+    </div><br>
+    <div>
+        <input type="date" name="myDate">
+    </div><br>
+    <div>
+        My Payment: <input type="number" name="myNumber">
+    </div><br>
+    <div>
+        Are you eligble? <input type="checkbox" name="myEligibility">
+        <!-- (checked) -->
+    </div><br>
+    <div>
+        Gender : Male<input type="radio" name="myGender">
+        Female<input type="radio" name="myGender">
+        Other<input type="radio" name="myGender">
+    </div><br>
+    <div>
+        Write About Yourself <br> <textarea name="text" cols="30" rows="10"></textarea>
+    </div><br>
+    <div>
+        <label for="bartan">Kitchen Saman</label>
+
+        <select name="cup" id="bartan">
+            <option value="j">jug</option>
+            <option value="p" selected>plates  </option>
+        </select> 
+
+    </div><br>
+    <div>
+
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </div><br>
+    <div>
+
+    </div><br>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        * {
+            box-sizing:border-box;
+            margin: 0;
+            padding: 0;
+        }   
+        .container{
+            background-color: #efa7a7;
+            border: 3px solid rgb(124, 66, 231);
+            /* padding-top: 44px;
+            padding-bottom: 33px;
+            padding-left: 33px;
+            padding-right: 33px; */
+            padding: 33px 66px; 
+            /* (top&bottom) (left&right) */
+            /* padding: 33px 55px 44px 66px; top right left bottom */
+            margin: 44px 100px;/*same as padding*/
+            width: 444px;
+            border-radius: 77px
+        }
+        body{background-color:#b4acb7;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>
+            this is my heading
+        </h2>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at facere nostrum eos, cum deserunt modi. Ipsa mollitia sunt doloribus veritatis dolor ut id velit dolorum reprehenderit maxime accusamus, fugit, itaque ea optio culpa?
+
+        </p>
+    </div>
+    <div class="container">
+        <h2>
+            this is my heading
+        </h2>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at facere nostrum eos, cum deserunt modi. Ipsa mollitia sunt doloribus veritatis dolor ut id velit dolorum reprehenderit maxime accusamus, fugit, itaque ea optio culpa?
+
+        </p>
+    </div>
+    <div class="container">
+        <h2>
+            this is my heading
+        </h2>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at facere nostrum eos, cum deserunt modi. Ipsa mollitia sunt doloribus veritatis dolor ut id velit dolorum reprehenderit maxime accusamus, fugit, itaque ea optio culpa?
+
+        </p>
+    </div>
+    
+</body>
+</html>

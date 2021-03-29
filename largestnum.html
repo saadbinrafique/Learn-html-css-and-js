@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return the Largest Numbers in a Array</title>
+</head>
+<h1>
+    Return the Largest Numbers in a Array
+</h1>
+
+<body>
+    <script>
+        // function largestOfFour(arr) {
+        //     let largestNum = [0, 0, 0, 0];
+
+        //     for (let indexArray = 0; indexArray < arr.length; indexArray++) {
+
+        //         for (let subArrayIndex = 0; subArrayIndex < arr[indexArray].length; subArrayIndex++) {
+
+        //             if (arr[indexArray][subArrayIndex] > largestNum[indexArray]) {
+        //                 largestNum[indexArray] = arr[indexArray][subArrayIndex];
+
+        //             }
+        //         }
+        //         function largestOfFour(arr) {
+        //             var largestNumber = [0, 0, 0, 0];
+        //             for (var arrayIndex = 0; arrayIndex < arr.length; arrayIndex++) {
+        //                 for (var subArrayIndex = 0; subArrayIndex < arr[arrayIndex].length; subArrayIndex++) {
+        //                     if (arr[arrayIndex][subArrayIndex] > largestNumber[arrayIndex]) {
+        //                         largestNumber[arrayIndex] = arr[arrayIndex][subArrayIndex];
+        //                     }
+        //                 }
+        //             }
+        //             return largestNumber;
+        //         }
+
+        //         return largestNum;
+
+                function largestOfFour(max1) {
+                    return max1.map(function (submax) {
+                        return Math.max.apply(null, submax);
+                        
+                    });
+                    
+                }
+            }
+
+            largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+
+    </script>
+</body>
+
+</html>

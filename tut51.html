@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope and conditionals</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        var name = 'this is the var string';
+        console.log(name);
+        var name = 'this is second var string with same var name';
+        console.log(name);
+
+        let name1 = 'this is let';
+        console.log(name1);
+
+        const name2 = 'this is const';
+        console.log(name2);
+
+        let greeting = "say Hi";
+        if (true) {
+            let greeting = "say Hello instead";
+            console.log(greeting); // "say Hello instead"
+        }
+        console.log(greeting); // "say Hi"
+
+        let age = 2;
+        console.log(age);
+
+
+        if (age > 18) {
+            console.log('you can drink colddrink');
+        }
+
+
+        else if (age == 11) { console.log('u can go outside'); }
+
+
+        else if (age > 6) {
+            console.log('keep quite');
+
+        }
+        else {
+            console.log('dont say anything');
+        }
+
+        let symbol= 44
+
+        switch (symbol) {
+            case 9:
+                console.log("The value of symbol is 9")
+                
+                break;
+            case 77:
+                console.log("The value of symbol is ..77.")
+                
+                break;
+        
+            default:
+            console.log("The value of symbol is none of above")
+                break;
+        }
+
+        for
+
+
+    </script>
+</body>
+
+</html>
